@@ -5,7 +5,7 @@ function doGet(e) {
     result = 'No Parameters';
   }
   else {
-    var sheet_id = '1XAICDBqsgTLtnwQEJWwiHNxZfEUBDWGcjiSpezE1PfM'; 		// Spreadsheet ID
+    var sheet_id = '#######################################'; 		// Spreadsheet ID
     var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();		// get Active sheet
     var newRow = sheet.getLastRow() + 1;						
     var rowData = [];
